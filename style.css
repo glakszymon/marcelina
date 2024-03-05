@@ -1,0 +1,80 @@
+.div1{
+    /* background-color: rgb(197, 90, 221); */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(255, 42, 209);
+}
+
+.photo1{
+    width: 10rem;
+    position: absolute;
+    /* margin-left: 41rem; */
+    /* margin-right: auto; */
+    /* margin-top: 2rem; */
+    top: 6rem;
+    z-index: 3;
+    animation-name: animation2;
+    animation-duration: 6s;
+    animation-iteration-count: 10;
+}
+
+.photo2{
+    width: 20rem;
+    position: absolute;
+    /* margin-left: 37rem; */
+    /* margin-right: auto; */
+    /* margin-top: 2rem;  */
+    z-index: 2;
+    animation-name: animation1;
+    animation-duration: 6s;
+    animation-iteration-count: 10;
+}
+
+@keyframes animation2 {
+    0% {left: 0;
+        top: 16rem;}
+    20% {left: 18rem;
+        top: 16rem;}
+    40%{
+        left: 40rem;
+        top: 3rem;}
+    60%{
+        left: 60rem;
+        top:16rem;
+    }
+    100%{left: 80rem;
+        top: 16rem;}
+    
+} 
+
+@keyframes animation1 {
+    0% {left: 0;
+        top: 26rem;}
+    20% {left: 18rem;
+        top: 26rem;}
+    40%{
+        left: 40rem;
+        top: 13rem;}
+    60%{
+        left: 60rem;
+        top:26rem;
+    }
+    100%{left: 80rem;
+        top: 26rem;}
+    
+}
+
+.plot{
+    position: absolute;
+    top: 28rem;
+    left: 40rem;
+    height: 10rem;
+}
+
+.photoSite2{
+    height: 100%;
+}
